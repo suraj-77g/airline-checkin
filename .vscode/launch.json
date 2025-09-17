@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Package",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}",
+            "env": {
+                "DB_USER": "root",
+                "DB_PASS": "my-secret-pw",
+                "DB_HOST": "127.0.0.1",
+                "DB_PORT": "3306",
+                "DB_NAME": "locking_demo"
+            }
+        }
+    ]
+}
